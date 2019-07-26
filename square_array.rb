@@ -8,6 +8,6 @@
 #   array
 # end
 
-def square_array(numbers)
-  numbers.collect { |number| number**2 }
+def square_array(array)
+  array.collect { |number| number**2 }
 end
